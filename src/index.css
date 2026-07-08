@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.logo-antern{
+  width: 60px;
+}
+
+@keyframes liquid-wave {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
