@@ -3,7 +3,7 @@ import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import LogoAnternAI from "../assets/antern-logo-ai.png";
 import LiquidButton from "./LiquidButton";
 
-const navLinks = ['Agents', 'Pipeline', 'Capabilities', 'Engagement', 'Expertise', 'Use Cases', 'Contact'];
+const navLinks = ['Agents', 'Capabilities', 'Engagement', 'Expertise', 'Use Cases', 'Contact'];
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -71,7 +71,7 @@ const Navbar = () => {
           <img 
             src={LogoAnternAI} 
             alt="AnternAI Logo"
-            className={`transition-all duration-500 ${isScrolled ? 'w-10' : 'w-[60px]'}`} 
+            className={`transition-all duration-500 ${isScrolled ? 'w-10' : 'w-[70px]'}`} 
           />
         </div>
         

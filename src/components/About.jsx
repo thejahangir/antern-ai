@@ -1,13 +1,8 @@
 import { motion } from 'framer-motion';
-import AnimatedCounter from './AnimatedCounter';
+
 import Aurora from './Aurora';
 
-const stats = [
-  { label: 'Years of Expertise', to: 10, suffix: '+' },
-  { label: 'Enterprise Clients', to: 50, suffix: '+' },
-  { label: 'Proprietary Models deployed', to: 100, suffix: '+' },
-  { label: 'Candidate profiles processed', to: 1, suffix: 'M+' },
-];
+
 
 const pills = [
   'Data Science', 'Machine Learning', 'NLP', 'Computer Vision', 'Generative AI', 'Predictive Analytics'
@@ -56,26 +51,7 @@ const About = () => {
           </motion.div>
         </div>
 
-        {/* 4-Column Stats Row */}
-        <motion.div
-          initial={{ opacity: 0, y: 80 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.3, duration: 0.7 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 relative z-10"
-        >
-          {stats.map((stat, i) => (
-            <div key={stat.label} className="bg-gray-50 p-6 md:p-8 rounded-lg border border-gray-200 shadow-sm hover:-translate-y-1 hover:shadow-xl hover:bg-white hover:border-brand-blue/30 transition-all duration-300 group text-center relative overflow-hidden flex flex-col justify-center">
-              {/* Subtle hover background accent */}
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-brand-blue/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              
-              <h4 className="text-2xl md:text-3xl font-semibold text-brand-black mb-1.5 relative z-10 group-hover:text-brand-blue transition-colors duration-300">
-                <AnimatedCounter to={stat.to} suffix={stat.suffix} />
-              </h4>
-              <p className="text-brand-black/60 font-medium text-[13px] relative z-10">{stat.label}</p>
-            </div>
-          ))}
-        </motion.div>
+
       </motion.div>
     </section>
   );

@@ -9,7 +9,10 @@ body {
   color: #000000;
 }
 .logo-antern{
-  width: 60px;
+  width: 75px;
+}
+.logo-footer{
+  width: 50px;
 }
 
 @keyframes liquid-wave {

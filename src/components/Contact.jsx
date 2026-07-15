@@ -89,7 +89,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="text-sm text-brand-black/50 font-medium mb-1 uppercase tracking-wider">Email</div>
-                      <div className="text-lg font-medium text-brand-black group-hover:text-brand-blue transition-colors">hello@antern.ai</div>
+                      <div className="text-lg font-medium text-brand-black group-hover:text-brand-blue transition-colors">info@anternai.com</div>
                     </div>
                   </div>
                   
@@ -99,7 +99,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="text-sm text-brand-black/50 font-medium mb-1 uppercase tracking-wider">Phone</div>
-                      <div className="text-lg font-medium text-brand-black group-hover:text-brand-pink transition-colors">+91 9898989898</div>
+                      <div className="text-lg font-medium text-brand-black group-hover:text-brand-pink transition-colors">+91 98805 65578</div>
                     </div>
                   </div>
                   
@@ -110,7 +110,7 @@ const Contact = () => {
                     <div>
                       <div className="text-sm text-brand-black/50 font-medium mb-1 uppercase tracking-wider">Office</div>
                       <div className="text-lg font-medium text-brand-black leading-relaxed group-hover:text-brand-green transition-colors">
-                        #226, 10 M, 100 Ft Road,<br /> HRBR Layout, Block 1,<br /> Kalyan Nagar, Bangalore - 560 043. India.
+                        Bangalore - India.
                       </div>
                     </div>
                   </div>

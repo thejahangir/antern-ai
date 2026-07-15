@@ -68,7 +68,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-brand-black leading-tight tracking-tighter">
             Your End-to-End <br/>
             <span className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">
-              Digital Transformation
+              AI Digital Transformation
             </span> <br/>
             Partner.
           </h1>

@@ -1,6 +1,8 @@
+import LogoAntern from "../assets/antern-logo-ai.png";
+
 
 const Footer = () => {
-  const navLinks = ['Agents', 'Pipeline', 'Capabilities', 'Engagement', 'Expertise', 'Use Cases', 'Contact'];
+  const navLinks = ['Agents', 'Capabilities', 'Engagement', 'Expertise', 'Use Cases', 'Contact'];
 
   return (
     <footer className="bg-white border-t border-gray-100 pt-16 pb-8">
@@ -8,7 +10,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-12 border-b border-gray-100 pb-12">
           
           <div className="text-2xl font-bold tracking-tight text-brand-black mb-6 md:mb-0">
-            Antern<span className="text-brand-green">AI</span>
+            {/* Antern<span className="text-brand-green">AI</span> */}
+            <img src={LogoAntern} alt="Antern AI Logo" className="logo-footer" />
           </div>
 
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-6 md:mb-0">
